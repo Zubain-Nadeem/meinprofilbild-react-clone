@@ -17,7 +17,7 @@ import SubMen4 from "../assets/images/hero-section-images/right-container-images
 const Hero = () => {
   return (
     <div>
-      <main className="border-4 border-green-500 min-h-[100vh] flex justify-center items-center">
+      <main className=" min-h-[100vh] flex justify-center items-center ">
         <div className=" w-[85%] min-h-[500px] flex p-2.5  gap-4">
           {/* left */}
           <section className=" w-[50%] h-[500px] flex flex-col gap-5">

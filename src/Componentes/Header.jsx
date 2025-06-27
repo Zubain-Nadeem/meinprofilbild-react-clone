@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <header className=" h-16 bg-[#FFFFFF] flex justify-center items-center w-[100%] fixed top-0 shadow-lg">
+      <header className=" h-16 bg-[#FFFFFF] flex justify-center items-center w-[100%] shadow-lg">
         <div className=" h-full w-[85%] flex items-center justify-between">
           <h1 className="text-2xl font-semibold">
             My <span className="text-[#006FF0]">profile picture</span>
