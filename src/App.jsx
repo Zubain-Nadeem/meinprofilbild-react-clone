@@ -5,6 +5,7 @@ import Packages from './Componentes/Packages'
 import Companies from './Componentes/companies'
 import Success from './Componentes/Success'
 import ThreeStep from './Componentes/ThreeStep'
+import Prices from './Componentes/Prices'
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
      <Companies />
      <Success />
      <ThreeStep />
+     <Prices />
     </div>
   )
 }
