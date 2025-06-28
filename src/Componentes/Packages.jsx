@@ -9,7 +9,7 @@ import { IoGift } from "react-icons/io5";
 const Packages = () => {
   return (
     <div>
-      <section className=' flex justify-center bg-[#F3F2EF] py-2'>
+      <section className=' flex justify-center bg-[#F3F2EF] py-2 '>
             <div className='  bg-white w-[65%] h-[120px] rounded-4xl flex flex-col items-center justify-center justify-evenly p-2'>
                     <h2 className='text-center text-xl font-semibold'>Our packages at a glance</h2>
                     <div className='flex  items-center'>
