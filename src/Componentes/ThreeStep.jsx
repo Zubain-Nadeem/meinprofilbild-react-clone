@@ -8,7 +8,7 @@ import Card3Image2 from "../assets/images/threestep/card2-2.webp"
 const ThreeStep = () => {
   return (
     <div className=" bg-[#F3F2EF]">
-      <div className=" mx-auto w-[85%] py-6">
+      <div className=" mx-auto w-[85%] py-6 flex flex-col gap-8 items-center  ">
         <h1 className="text-6xl text-center mb-6">
           It's that simple: 3 steps to your professional application photo
         </h1>
@@ -62,6 +62,7 @@ const ThreeStep = () => {
           </div>
 
         </div>
+        <button className="px-5 bg-orange-500 py-4 rounded-2xl text-white cursor-pointer hover:bg-slate-600">Start now  </button>
       </div>
     </div>
   );
