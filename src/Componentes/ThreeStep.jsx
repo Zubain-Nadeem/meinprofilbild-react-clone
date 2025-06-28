@@ -1,25 +1,70 @@
-import React from 'react'
-
+import React from "react";
+import Card1Image1 from "../assets/images/threestep/card1-1.png";
+import Card1Image2 from "../assets/images/threestep/card1-2.png";
+import Card2Image1 from "../assets/images/threestep/card2-1.png"
+import Card2Image2 from "../assets/images/threestep/card2-2.svg"
+import Card3Image1 from "../assets/images/checked.png"
+import Card3Image2 from "../assets/images/threestep/card2-2.webp"
 const ThreeStep = () => {
   return (
-    <div className='border-2 border-yellow-600 min-h-[400px] bg-[#F3F2EF]'>
-        <div className='border border-black mx-auto w-[85%] py-6'>
-            <h1 className='text-6xl text-center mb-6'>It's that simple: 3 steps to your professional application photo</h1>
-            <div className='border border-red-500 flex justify-between'>
-                <div className='border border-indigo-400 w-[30%] h-[350px] bg-white rounded-2xl '>
-                    
-                </div>
-                 <div className='border border-indigo-400 w-[30%] h-[350px] bg-white rounded-2xl '>
-                    
-                </div>
-                 <div className='border border-indigo-400 w-[30%] h-[350px] bg-white rounded-2xl '>
-                    
-                </div>
+    <div className=" bg-[#F3F2EF]">
+      <div className=" mx-auto w-[85%] py-6">
+        <h1 className="text-6xl text-center mb-6">
+          It's that simple: 3 steps to your professional application photo
+        </h1>
+        <div className=" mt-3 flex justify-between">
+          <div className=" w-[30%] bg-white rounded-2xl p-2 flex flex-col justify-center items-center gap-6">
+            <div className="mb-2.5">
+              <img src={Card1Image1} alt="Cards images" />
             </div>
-        </div>
-      
-    </div>
-  )
-}
 
-export default ThreeStep
+            <h2 className="text-2xl font-semibold">Upload images</h2>
+
+            <p>
+              Select your selfies and upload them to our secure platform. A
+              simple background and good lighting are key—and of course, your
+              smile!
+            </p>
+
+            <img src={Card1Image2} alt="cardimages" />
+          </div>
+
+          <div className=" w-[30%] bg-white rounded-2xl p-2 flex flex-col justify-center items-center gap-6">
+            <div className="mb-2.5">
+              <img src={Card3Image1} alt="Cards images" className="h-8" />
+            </div>
+
+            <h2 className="text-2xl font-semibold">Upload images</h2>
+
+            <p>
+              Select your selfies and upload them to our secure platform. A
+              simple background and good lighting are key—and of course, your
+              smile!
+            </p>
+
+            <img src={Card3Image2} alt="cardimages" />
+          </div>
+
+          <div className=" w-[30%] bg-white rounded-2xl p-2 flex flex-col justify-center items-center gap-6">
+            <div className="mb-2.5">
+              <img src={Card2Image1} alt="Cards images" />
+            </div>
+
+            <h2 className="text-2xl font-semibold">Upload images</h2>
+
+            <p>
+              Select your selfies and upload them to our secure platform. A
+              simple background and good lighting are key—and of course, your
+              smile!
+            </p>
+
+            <img src={Card2Image2} alt="cardimages" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ThreeStep;
