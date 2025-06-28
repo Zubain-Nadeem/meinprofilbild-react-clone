@@ -4,6 +4,7 @@ import Hero from './Componentes/Hero'
 import Packages from './Componentes/Packages'
 import Companies from './Componentes/companies'
 import Success from './Componentes/Success'
+import ThreeStep from './Componentes/ThreeStep'
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
      <Packages />
      <Companies />
      <Success />
+     <ThreeStep />
     </div>
   )
 }

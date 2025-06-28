@@ -24,8 +24,8 @@ import Card3Right3 from "../assets/images/susscess stories section/card-3-right-
 
 const Success = () => {
   return (
-    <div className="border-2 border-red-800 py-12 bg-[#F3F2EF]">
-      <div className="border border-black w-[85%] mx-auto py-5 flex flex-col justify-center items-center gap-9">
+    <div className="py-12 bg-[#F3F2EF]">
+      <div className=" w-[85%] mx-auto py-5 flex flex-col justify-center items-center gap-9">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="mb-6 text-5xl font-semibold">
             From selfie to application hit: Our success stories
@@ -36,7 +36,7 @@ const Success = () => {
           </p>
         </div>
         {/* Cards */}
-        <div className="border border-red-400 mt-4.5 p-2 w-full flex justify-between">
+        <div className=" mt-4.5 p-2 w-full flex justify-between">
           <div className=" w-[30%] py-2.5 flex flex-col  bg-white p-2 rounded-2xl ">
             <div className="flex items-center justify-between">
               <div className=" flex flex-col text-sm">
