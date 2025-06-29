@@ -9,6 +9,7 @@ import Prices from './Componentes/Prices'
 import Reivew from './Componentes/Reivew'
 import Faq from "./Componentes/Faq"
 import PhotoSection from './Componentes/PhotoSection'
+import Footer from './Componentes/Footer'
 const App = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const App = () => {
      <Reivew />
      <Faq />
      <PhotoSection />
+     <Footer />
     </div>
   )
 }
