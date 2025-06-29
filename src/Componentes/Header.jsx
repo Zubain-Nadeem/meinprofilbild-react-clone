@@ -15,10 +15,10 @@ export default function Header() {
                 <a href="#">For companies</a>
               </li>
               <li>
-                <a href="#">How it works</a>
+                <a href="#howWork">How it works</a>
               </li>
               <li>
-                <a href="#">Price</a>
+                <a href="#price">Price</a>
               </li>
               <li>
                 <a href="#">Blog</a>

@@ -7,7 +7,7 @@ import Professional from "../assets/images/prices section/professional.png";
 
 const Prices = () => {
   return (
-    <div className="py-10 bg-[#F3F2EF]">
+    <div className="py-10 bg-[#F3F2EF] " id="price">
       <div className=" mx-auto w-[85%] py-5">
         <h2 className="text-center text-4xl font-semibold mb-8">Prices</h2>
 

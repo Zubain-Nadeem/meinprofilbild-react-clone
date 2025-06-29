@@ -7,7 +7,7 @@ import Card3Image1 from "../assets/images/checked.png"
 import Card3Image2 from "../assets/images/threestep/card2-2.webp"
 const ThreeStep = () => {
   return (
-    <div className=" bg-[#F3F2EF]">
+    <div className=" bg-[#F3F2EF] " id="howWork">
       <div className=" mx-auto w-[85%] py-6 flex flex-col gap-8 items-center  ">
         <h1 className="text-6xl text-center mb-6">
           It's that simple: 3 steps to your professional application photo
