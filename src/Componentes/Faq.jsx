@@ -51,24 +51,21 @@ const Faq = () => {
   };
 
   return (
-    <div className=" h-[500px] bg-[#F3F2EF]">
+    <div className="  bg-[#F3F2EF]">
       <div className="w-[85%] mx-auto p-1.5">
         <h1 className="text-center mb-5 text-4xl font-semibold">FAQ </h1>
 
         <div>
           {faqs.map((question, index) => (
-            <div
-              key={index}
-              className=" bg-gray-500 mb-3 p-2.5 "
-            >
+            <div key={index} className=" bg-gray-500 mb-3 p-2.5 ">
               <button
                 onClick={() => toogleFaq(index)}
-                className=" w-full px-6 py-4 text-start cursor-pointer"
+                className=" w-full px-6 py-4 text-start cursor-pointer hover:bg-gray-200 transition-all duration-300 ease-in-out"
               >
                 {question.question}
               </button>
               {openIndex === index && (
-                <div className=" p-3 text-center bg-gray-400 text-black">
+                <div className=" p-3 text-center bg-gray-400 text-black  ">
                   <p>{question.answer}</p>
                 </div>
               )}
