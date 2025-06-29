@@ -7,6 +7,7 @@ import Success from './Componentes/Success'
 import ThreeStep from './Componentes/ThreeStep'
 import Prices from './Componentes/Prices'
 import Reivew from './Componentes/Reivew'
+import Faq from "./Componentes/Faq"
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
      <ThreeStep />
      <Prices />
      <Reivew />
+     <Faq />
     </div>
   )
 }
