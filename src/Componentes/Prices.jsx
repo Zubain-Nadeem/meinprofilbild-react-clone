@@ -109,8 +109,8 @@ const Prices = () => {
 
             <div className="p-2.5">
               <div className=" flex gap-2 items-center mb-3">
-                <img src={Premium} alt="Prices label" className="h-7" />{" "}
-                <span className="text-xl">Premium</span>
+                <img src={Professional} alt="Prices label" className="h-7" />{" "}
+                <span className="text-xl">Professional</span>
               </div>
               <div className=" flex flex-col justify-center gap-2 mb-3">
                 <h2 className="text-5xl text-black mt-2 font-semibold">

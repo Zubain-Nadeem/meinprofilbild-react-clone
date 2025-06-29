@@ -8,6 +8,7 @@ import ThreeStep from './Componentes/ThreeStep'
 import Prices from './Componentes/Prices'
 import Reivew from './Componentes/Reivew'
 import Faq from "./Componentes/Faq"
+import PhotoSection from './Componentes/PhotoSection'
 const App = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const App = () => {
      <Prices />
      <Reivew />
      <Faq />
+     <PhotoSection />
     </div>
   )
 }
