@@ -10,22 +10,34 @@ import Reivew from './Componentes/Reivew'
 import Faq from "./Componentes/Faq"
 import PhotoSection from './Componentes/PhotoSection'
 import Footer from './Componentes/Footer'
+import Company from "./Company"
+import { Route, Routes } from 'react-router-dom'
+
+const Home = () => (
+  <>
+    <Header />
+    <Hero />
+    <Packages />
+    <Companies />
+    <Success />
+    <ThreeStep />
+    <Prices />
+    <Reivew />
+    <Faq />
+    <PhotoSection />
+    <Footer />
+  </>
+)
+
 const App = () => {
   return (
-    <div>
-     <Header />
-     <Hero />
-     <Packages />
-     <Companies />
-     <Success />
-     <ThreeStep />
-     <Prices />
-     <Reivew />
-     <Faq />
-     <PhotoSection />
-     <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/company" element={<Company />} />
+    </Routes>
   )
 }
 
-export default App
+export default App;
+
+
