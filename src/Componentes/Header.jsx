@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -12,7 +13,7 @@ export default function Header() {
           <nav>
             <ul className="flex gap-8 text-sm text-slate-700">
               <li>
-                <a href="company">For companies</a>
+                <Link to="company">For companies</Link>
               </li>
               <li>
                 <a href="#howWork">How it works</a>
