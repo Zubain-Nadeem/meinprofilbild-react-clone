@@ -13,7 +13,10 @@ export default function Header() {
           <nav>
             <ul className="flex gap-8 text-sm text-slate-700">
               <li>
-                <Link to="company">For companies</Link>
+                <Link to="/">My profile</Link>
+              </li>
+              <li>
+                <Link to="/company">For companies</Link>
               </li>
               <li>
                 <a href="#howWork">How it works</a>
